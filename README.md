@@ -147,7 +147,7 @@ Back:
 -  XHC2 PRT7 USB 3.0 (Rear I/O Panel 6)
 
 @@ purple = USB 2.0 @@
-- red = USB 3.0
+-  red = USB 3.0
 
 ```
 
