@@ -122,9 +122,9 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-<div class="text-blue mb-2">
-  .text-blue on white
-</div>
+\``diff 
++ Green Text 2
+\``
 
 XHC PRT1 USB 3.0. = <div class="text-purple mb-2"> C </div>
 
