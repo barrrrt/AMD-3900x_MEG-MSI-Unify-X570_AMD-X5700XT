@@ -122,8 +122,9 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-
+```diff
+-text in red
+```
 
 
 XHCI PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 7</div>
