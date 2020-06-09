@@ -122,6 +122,10 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>
+
 XHC PRT1 USB 3.0. = <div class="text-purple mb-2"> C </div>
 
 XHC PRT2 USB 3.0. = <div class="text-purple mb-2"> D </div>
