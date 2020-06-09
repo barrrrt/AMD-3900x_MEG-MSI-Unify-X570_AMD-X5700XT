@@ -110,17 +110,17 @@ Before we begin: the renaming of the controllers have been done with an aml file
 
 This is the aml file i have used:
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/ACPI-SSDT-XHC-Fullaml.png)
+![](/docs/img/Mainboard/ACPI-SSDT-XHC-Fullaml.png)
 
 Front:
 
 View from the front to my Tower with the USB ports:
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/USBviewfront.png)
+![](/docs/img/Mainboard/USBviewfront.png)
 
 Back:
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/RearIOPanel.png)
+![](/docs/img/Mainboard/RearIOPanel.png)
 
 XHC PRT1 USB 3.0. = <span style="color: purple"> C </span>
 
@@ -172,12 +172,12 @@ XHC2 PRT7 USB 3.0 (Rear I/O Panel <span style="color: red">6</span>)
 
 Without changing anything but the names of the XHC controllers, the list of available slots look like this on my side:
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/FullActivatedPorts.png)
+![](/docs/img/Mainboard/FullActivatedPorts.png)
 
 All USB 3 and USB 2 Slots marked green are usable. (Just the USB 3.2 Gen 2 Type-C is not marked green, cause i have no device that i can attach to it. So Hackintool cannot check if the port is used. But you can decide yourself if you want to disable a port or not.)
 
 With disabled ports Hackintools USB sectio looks like this. (Again: This varies if you dont disable all the ports i did. It is not really needed as far as i know):
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/ReducedActivatedPorts.png)
+![](/docs/img/Mainboard/ReducedActivatedPorts.png)
 
 
 
@@ -190,11 +190,11 @@ Audioplayback with SPDIF tested.
 Audioinput not testet.
 
 config.plist
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Audio/configplist.png)
+![](/docs/img/Audio/configplist.png)
 
 kext + config.plist
 
-<img src="/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Audio/kextANDconfigplist.png" title="" alt="" width="508">
+<img src="/docs/img/Audio/kextANDconfigplist.png" title="" alt="" width="508">
 
 
 
@@ -206,11 +206,11 @@ agdpmod=pikera
 
 config.plist
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/moreGPUpower/configplist.png)
+![](/docs/img/moreGPUpower/configplist.png)
 
 kext + config.plist
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/moreGPUpower/kextANDconfigplist.png)
+![](/docs/img/moreGPUpower/kextANDconfigplist.png)
 
 
 
@@ -220,17 +220,17 @@ With the kext from Mieze the LAN adapter with 2.5 GBit it is working stable when
 
 You have to set the speed in Hardwaresettings manually like the following. First you have to set the speed to 100baseT and accept everything. You will see the "Ethernet" on the left becomes green. Afterwards you can switch the speed to 1000baseT.
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/LAN/Settings.png)
+![](/docs/img/LAN/Settings.png)
 
 kext and config.plist
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/LAN/kextANDconfigplist.png)
+![](/docs/img/LAN/kextANDconfigplist.png)
 
 ##### Bluetooth:
 
 Worked OOB on my side when i was using the AX200 WIFI/BT card. But to be sure you should use the [IntelBluetoothFirmware]([Releases · zxystd/IntelBluetoothFirmware · GitHub](https://github.com/zxystd/IntelBluetoothFirmware/releases) and add it to the config.plist and kext folder. This isn't done from me in this repo!
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/BluetoothWifi/BluetoothAX200.png)
+![](/docs/img/BluetoothWifi/BluetoothAX200.png)
 
 ##### Powermanagement:
 
@@ -238,7 +238,7 @@ Worked OOB on my side when i was using the AX200 WIFI/BT card. But to be sure yo
 
 When you use the SSDT-PLUG.aml you see in ioregistryexplorer, that the powermanagement is working.
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/PowerManagement/withSSDT-Plug.png)
+![](/docs/img/PowerManagement/withSSDT-Plug.png)
 
 ##### **internal drives are shown as external drives
 
@@ -246,9 +246,9 @@ Without adding the following setting, my internal nvme SSD was shown as external
 
 With this change, the master boot device (nvme slot) is told: you are internal.
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/internalDrives/internalDrivesConfig.png)
+![](/docs/img/internalDrives/internalDrivesConfig.png)
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/internalDrives/finalView.png)
+![](/docs/img/internalDrives/finalView.png)
 
 <span style="color: yellow">yellow = internal boot-device</span>
 
