@@ -122,19 +122,7 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-<div class="text-purple">This text is purple, <a href="#" class="text-inherit">including the link</a></div>
-
-XHC PRT1 USB 3.0. = <div class="text-purple mb-2"> C </div>
-
-XHC PRT2 USB 3.0. = <div class="text-purple mb-2"> D </div>
-
-XHC PRT5 - internal USB Mystic Light - i have deactivated it
-
-XHC PRT6 USB 2.0 Hub = <div class="text-purple mb-2"> A,B </div>
-
-XHC PRT7 USB 3.0 = <div class="text-red mb-2"> C </div>
-
-XHC PRT8 USB 3.0 = <div class="text-red mb-2"> D </div>
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 
 
 
