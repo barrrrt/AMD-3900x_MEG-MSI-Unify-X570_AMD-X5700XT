@@ -123,39 +123,39 @@ Back:
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
 
-<p style='color:red'>This is some red text.</p>
-```diff
-@@ XHCI PRT1 USB 3.0 (Rear I/O Panel  7 @@
 
-XHCI PRT2 USB 3.0 (Rear I/O Panel @@ 8 @@
+```diff
+@@ XHCI PRT1 USB 3.0 (Rear I/O Panel 7) @@
+
+@@XHCI PRT2 USB 3.0 (Rear I/O Panel 8) @@
 
 XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom Karte)
 
-XHCI PRT5 USB 2.0 (Rear I/O Panel @@ 1 @@
+@@XHCI PRT5 USB 2.0 (Rear I/O Panel 1) @@
 
-XHCI PRT6 USB 2.0 (Rear I/O Panel @@ 2 @@
+@@XHCI PRT6 USB 2.0 (Rear I/O Panel 2) @@
 
-XHCI PRT7 USB 3.0 (Rear I/O Panel - 7
+- XHCI PRT7 USB 3.0 (Rear I/O Panel - 7)
 
-XHCI PRT8 USB 3.0 (Rear I/O Panel - 7
+- XHCI PRT8 USB 3.0 (Rear I/O Panel - 7)
 
 
 
-XHC2 PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 3</div>
+XHC2 PRT1 USB 3.0 (Rear I/O Panel 3)
 
-XHC2 PRT2 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 4</div>
+XHC2 PRT2 USB 3.0 (Rear I/O Panel 4)
 
-XHC2 PRT3 USB 3.0 (Rear I/O Panel <div class="text-purple mb-2">6</div>
+XHC2 PRT3 USB 3.0 (Rear I/O Panel 6)
 
-XHC2 PRT5 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">3</div>
+XHC2 PRT5 USB 3.0 (Rear I/O Panel 3)
 
-XHC2 PRT6 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">4</div>
+XHC2 PRT6 USB 3.0 (Rear I/O Panel 4)
 
-XHC2 PRT7 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">6</div>
+XHC2 PRT7 USB 3.0 (Rear I/O Panel 6)
 
-<div class="text-purple mb-2">purple = USB 2.0</div>
+@@ purple = USB 2.0 @@
 
-<div class="text-red mb-2">red = USB 3.0</div>
+- red = USB 3.0
 
 ```
 
