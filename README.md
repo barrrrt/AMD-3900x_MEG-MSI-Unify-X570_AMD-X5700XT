@@ -121,6 +121,9 @@ View from the front to my Tower with the USB ports:
 Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
+
+
+<p style='color:red'>This is some red text.</p>
 ```diff
 @@ XHCI PRT1 USB 3.0 (Rear I/O Panel  7 @@
 
