@@ -122,9 +122,39 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-\``diff 
-+ Green Text 2
-\``
+<div class="text-blue mb-2">
+  .text-blue
+</div>
+<div class="text-gray-dark mb-2">
+  .text-gray-dark
+</div>
+<div class="text-gray mb-2">
+  .text-gray
+</div>
+<div class="text-gray-light mb-2">
+  .text-gray-light
+</div>
+<div class="text-red mb-2">
+  .text-red
+</div>
+<div class="text-orange mb-2">
+  .text-orange
+</div>
+<div class="text-orange-light mb-2">
+  .text-orange-light
+  <span class="tooltipped tooltipped-n" aria-label="Does not meet accessibility standards">⚠️</span>
+</div>
+<div class="text-yellow mb-2">
+  .text-yellow
+  <span class="tooltipped tooltipped-n" aria-label="Does not meet accessibility standards">⚠️</span>
+</div>
+<div class="text-green mb-2">
+  .text-green
+  <span class="tooltipped tooltipped-n" aria-label="Does not meet accessibility standards">⚠️</span>
+</div>
+<div class="text-purple mb-2">
+  .text-purple
+</div>
 
 XHC PRT1 USB 3.0. = <div class="text-purple mb-2"> C </div>
 
