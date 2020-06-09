@@ -122,51 +122,51 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-XHC PRT1 USB 3.0. = <span style="color: purple"> C </span>
+XHC PRT1 USB 3.0. = <div class="text-purple mb-2"> C </div>
 
-XHC PRT2 USB 3.0. = <span style="color: purple"> D </span>
+XHC PRT2 USB 3.0. = <div class="text-purple mb-2"> D </div>
 
 XHC PRT5 - internal USB Mystic Light - i have deactivated it
 
-XHC PRT6 USB 2.0 Hub = <span style="color: purple"> A,B </span>
+XHC PRT6 USB 2.0 Hub = <div class="text-purple mb-2"> A,B </div>
 
-XHC PRT7 USB 3.0 = <span style="color: red"> C </span>
+XHC PRT7 USB 3.0 = <div class="text-red mb-2"> C </div>
 
-XHC PRT8 USB 3.0 = <span style="color: red"> D </span>
+XHC PRT8 USB 3.0 = <div class="text-red mb-2"> D </div>
 
 
 
-XHCI PRT1 USB 3.0 (Rear I/O Panel<span style="color: purple"> 7</span>)
+XHCI PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 7</div>
 
-XHCI PRT2 USB 3.0 (Rear I/O Panel<span style="color: purple"> 8</span>)
+XHCI PRT2 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 8</div>
 
 XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom Karte)
 
-XHCI PRT5 USB 2.0 (Rear I/O Panel<span style="color: purple"> 1</span>)
+XHCI PRT5 USB 2.0 (Rear I/O Panel<div class="text-purple mb-2"> 1</div>
 
-XHCI PRT6 USB 2.0 (Rear I/O Panel<span style="color: purple"> 2</span>)
+XHCI PRT6 USB 2.0 (Rear I/O Panel<div class="text-purple mb-2"> 2</div>
 
-XHCI PRT7 USB 3.0 (Rear I/O Panel<span style="color: red"> 7</span>)
+XHCI PRT7 USB 3.0 (Rear I/O Panel<div class="text-red mb-2"> 7</div>
 
-XHCI PRT8 USB 3.0 (Rear I/O Panel<span style="color: red"> 8</span>)  
+XHCI PRT8 USB 3.0 (Rear I/O Panel<div class="text-red mb-2"> 8</div>
 
 
 
-XHC2 PRT1 USB 3.0 (Rear I/O Panel<span style="color: purple"> 3</span>)
+XHC2 PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 3</div>
 
-XHC2 PRT2 USB 3.0 (Rear I/O Panel<span style="color: purple"> 4</span>)  
+XHC2 PRT2 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 4</div>
 
-XHC2 PRT3 USB 3.0 (Rear I/O Panel <span style="color: purple">6</span>)
+XHC2 PRT3 USB 3.0 (Rear I/O Panel <div class="text-purple mb-2">6</div>
 
-XHC2 PRT5 USB 3.0 (Rear I/O Panel <span style="color: red">3</span>)
+XHC2 PRT5 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">3</div>
 
-XHC2 PRT6 USB 3.0 (Rear I/O Panel <span style="color: red">4</span>)
+XHC2 PRT6 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">4</div>
 
-XHC2 PRT7 USB 3.0 (Rear I/O Panel <span style="color: red">6</span>)
+XHC2 PRT7 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">6</div>
 
-<span style="color: purple">purple = USB 2.0</span> 
+<div class="text-purple mb-2">purple = USB 2.0</div>
 
-<span style="color: red">red = USB 3.0</span> 
+<div class="text-red mb-2">red = USB 3.0</div>
 
 
 
@@ -250,9 +250,9 @@ With this change, the master boot device (nvme slot) is told: you are internal.
 
 ![](/docs/img/internalDrives/finalView.png)
 
-<span style="color: yellow">yellow = internal boot-device</span>
+<div class="text-yellow mb-2">yellow = internal boot-device</div>
 
-<span style="color: purple">purple = other internal devices</span>
+<div class="text-purple mb-2">purple = other internal devices</div>
 
 
 
