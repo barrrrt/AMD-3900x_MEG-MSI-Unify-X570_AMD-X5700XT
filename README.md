@@ -125,36 +125,30 @@ Back:
 
 
 ```diff
+
+@@ XHC PRT1 USB 3.0. = C @@
+@@ XHC PRT2 USB 3.0. = D @@
+   XHC PRT5 - internal USB Mystic Light (i deleted that from my usb kext, cause i don't need that. Optional.)
+@@   XHC PRT6 USB 2.0 Hub = A,B @@
+-    XHC PRT7 USB 3.0 = C
+-    XHC PRT8 USB 3.0 = D
+
 @@ XHCI PRT1 USB 3.0 (Rear I/O Panel 7) @@
+@@ XHCI PRT2 USB 3.0 (Rear I/O Panel 8) @@
+   XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom or Intel AX200 card)
+@@ XHCI PRT5 USB 2.0 (Rear I/O Panel 1) @@
+@@ XHCI PRT6 USB 2.0 (Rear I/O Panel 2) @@
+-  XHCI PRT7 USB 3.0 (Rear I/O Panel - 7)
+-  XHCI PRT8 USB 3.0 (Rear I/O Panel - 7)
 
-@@XHCI PRT2 USB 3.0 (Rear I/O Panel 8) @@
-
-XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom Karte)
-
-@@XHCI PRT5 USB 2.0 (Rear I/O Panel 1) @@
-
-@@XHCI PRT6 USB 2.0 (Rear I/O Panel 2) @@
-
-- XHCI PRT7 USB 3.0 (Rear I/O Panel - 7)
-
-- XHCI PRT8 USB 3.0 (Rear I/O Panel - 7)
-
-
-
-XHC2 PRT1 USB 3.0 (Rear I/O Panel 3)
-
-XHC2 PRT2 USB 3.0 (Rear I/O Panel 4)
-
-XHC2 PRT3 USB 3.0 (Rear I/O Panel 6)
-
-XHC2 PRT5 USB 3.0 (Rear I/O Panel 3)
-
-XHC2 PRT6 USB 3.0 (Rear I/O Panel 4)
-
-XHC2 PRT7 USB 3.0 (Rear I/O Panel 6)
+@@ XHC2 PRT1 USB 3.0 (Rear I/O Panel 3) @@
+@@ XHC2 PRT2 USB 3.0 (Rear I/O Panel 4) @@
+@@ XHC2 PRT3 USB 3.0 (Rear I/O Panel 6) @@
+-  XHC2 PRT5 USB 3.0 (Rear I/O Panel 3)
+-  XHC2 PRT6 USB 3.0 (Rear I/O Panel 4)
+-  XHC2 PRT7 USB 3.0 (Rear I/O Panel 6)
 
 @@ purple = USB 2.0 @@
-
 - red = USB 3.0
 
 ```
@@ -239,10 +233,11 @@ With this change, the master boot device (nvme slot) is told: you are internal.
 
 ![](/docs/img/internalDrives/finalView.png)
 
-<div class="text-yellow mb-2">yellow = internal boot-device</div>
+```diff
+!  yellow = internal boot-device</div>
 
-<div class="text-purple mb-2">purple = other internal devices</div>
-
+@@ purple = other internal devices</div> @@
+```
 
 
 ##### Shutdown
