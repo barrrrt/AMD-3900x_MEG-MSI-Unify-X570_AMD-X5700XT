@@ -138,8 +138,8 @@ Back:
    XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom or Intel AX200 card)
 @@ XHCI PRT5 USB 2.0 (Rear I/O Panel 1) @@
 @@ XHCI PRT6 USB 2.0 (Rear I/O Panel 2) @@
--  XHCI PRT7 USB 3.0 (Rear I/O Panel - 7)
--  XHCI PRT8 USB 3.0 (Rear I/O Panel - 7)
+-  XHCI PRT7 USB 3.0 (Rear I/O Panel 7)
+-  XHCI PRT8 USB 3.0 (Rear I/O Panel 8)
 
 @@ XHC2 PRT1 USB 3.0 (Rear I/O Panel 3) @@
 @@ XHC2 PRT2 USB 3.0 (Rear I/O Panel 4) @@
