@@ -122,34 +122,19 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-```css
-   // code for coloring
-```
-// etc.
+XHCI PRT1 USB 3.0 (Rear I/O Panel @@ 7 @@
 
-
-XHCI PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 7</div>
-
-XHCI PRT2 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 8</div>
+XHCI PRT2 USB 3.0 (Rear I/O Panel @@ 8 @@
 
 XHCI PRT4 USB internal (IOHostAdapter (PCIE x1 Broadcom Karte)
 
-XHCI PRT5 USB 2.0 (Rear I/O Panel<div class="text-purple mb-2"> 1</div>
+XHCI PRT5 USB 2.0 (Rear I/O Panel @@ 1 @@
 
-XHCI PRT6 USB 2.0 (Rear I/O Panel<div class="text-purple mb-2"> 2</div>
+XHCI PRT6 USB 2.0 (Rear I/O Panel @@ 2 @@
 
-XHCI PRT7 USB 3.0 (Rear I/O Panel<div class="text-red mb-2"> 7</div>
+XHCI PRT7 USB 3.0 (Rear I/O Panel - 7
 
-XHCI PRT8 USB 3.0 (Rear I/O Panel<div class="text-red mb-2"> 8</div>
+XHCI PRT8 USB 3.0 (Rear I/O Panel - 7
 
 
 
