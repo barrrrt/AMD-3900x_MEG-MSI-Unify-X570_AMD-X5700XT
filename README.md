@@ -122,7 +122,7 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 ```diff
-XHCI PRT1 USB 3.0 (Rear I/O Panel @@ 7 @@
+@@ XHCI PRT1 USB 3.0 (Rear I/O Panel  7 @@
 
 XHCI PRT2 USB 3.0 (Rear I/O Panel @@ 8 @@
 
