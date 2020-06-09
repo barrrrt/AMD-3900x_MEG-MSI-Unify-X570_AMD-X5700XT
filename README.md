@@ -122,9 +122,19 @@ Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
 
-```diff
--text in red
+```json
+   // code for coloring
 ```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
+// etc.
 
 
 XHCI PRT1 USB 3.0 (Rear I/O Panel<div class="text-purple mb-2"> 7</div>
