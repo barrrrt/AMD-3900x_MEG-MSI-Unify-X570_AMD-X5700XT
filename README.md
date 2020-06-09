@@ -106,7 +106,7 @@ Before we begin: the renaming of the controllers have been done with an aml file
 
 \_SB.PCI0.GP13.XHC0 -> XHC2
 
-![](/Users/schulteand/Documents/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/HackintoolUSBcontrollers.png)
+![](/AMD-3900x_MSI-Unify-X570_AMD-X5700XT/docs/img/Mainboard/HackintoolUSBcontrollers.png)
 
 This is the aml file i have used:
 
