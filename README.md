@@ -121,7 +121,7 @@ View from the front to my Tower with the USB ports:
 Back:
 
 ![](/docs/img/Mainboard/RearIOPanel.png)
-
+```diff
 XHCI PRT1 USB 3.0 (Rear I/O Panel @@ 7 @@
 
 XHCI PRT2 USB 3.0 (Rear I/O Panel @@ 8 @@
@@ -154,7 +154,7 @@ XHC2 PRT7 USB 3.0 (Rear I/O Panel <div class="text-red mb-2">6</div>
 
 <div class="text-red mb-2">red = USB 3.0</div>
 
-
+```
 
 Without changing anything but the names of the XHC controllers, the list of available slots look like this on my side:
 
