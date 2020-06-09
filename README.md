@@ -62,7 +62,7 @@ MacOS Catalina: 10.15.5
 
 
 
-[SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor/blob/master/README.md) - XNU kernel extension for power management and monitoring of AMD processors.
+[AMDRyzenCPUPowerManagement + SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor/blob/master/README.md) - XNU kernel extension for power management and monitoring of AMD processors.
 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) - An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 
@@ -73,8 +73,6 @@ MacOS Catalina: 10.15.5
 [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) - A macOS driver for Realtek RTL8125 2.5GBit Ethernet Controllers.
 
 [NVMeFix](https://github.com/acidanthera/NVMeFix) - NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. Its goal is to improve compatibility with non-Apple SSDs. It may be used both on Apple and non-Apple computers.
-
-[SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) - XNU kernel extension for power management and monitoring of AMD processors. Also comes with a plugin for [VirtualSMC](https://github.com/acidanthera/VirtualSMC) to export readings to other applications.
 
 [USBPort](https://github.com/headkaze/Hackintool) - created with Hackintool (see section below "Mainboardlayout") - The Swiss army knife of vanilla Hackintoshing
 
