@@ -2,6 +2,7 @@
  --- New Zen Patch (thx to Shanee and others) --- more GPU Performance
  --- New OC Version (with updated kexts)
  --- With a newer Bios Version the system didn't boot with the old config.plist - solved
+ 
  --- Big Sur compatible
 
 # AMD-3900x_MSI-Unify-X570_AMD-X5700XT
