@@ -1,3 +1,9 @@
+# Update 15.10.2020
+# --- New Zen Patch (thx to Shanee and others) --- more GPU Performance
+# --- New OC Version (with updated kexts)
+# --- With a newer Bios Version the system didn't boot with the old config.plist - solved
+# --- Big Sur compatible
+
 # AMD-3900x_MSI-Unify-X570_AMD-X5700XT
 
 EFI for my Hackintosh based on OpenCore
@@ -52,9 +58,9 @@ Video Card: 8GB Sapphire RX 5700 XT Nitro+
 
 <u>Software</u>
 
-OpenCore: 0.5.9
+OpenCore: 0.6.2
 
-MacOS Catalina: 10.15.5
+MacOS Catalina: 11.0 Beta (20A5384c)
 
 
 
