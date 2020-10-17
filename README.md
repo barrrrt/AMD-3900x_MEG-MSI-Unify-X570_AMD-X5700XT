@@ -6,7 +6,8 @@
 
 # AMD-3900x_MSI-Unify-X570_AMD-X5700XT
 Thread in this forum:
-https://www.hackintosh-forum.de/forum/thread/48345-msi-x570-unify-ryzen-9-3900x-opencore/
+[Hackintosh-forum.de](https://www.hackintosh-forum.de/forum/thread/48345-msi-x570-unify-ryzen-9-3900x-opencore/).
+
 
 EFI for my Hackintosh based on OpenCore
 
@@ -26,7 +27,7 @@ Based on some sources in the internet
 
 i was able to get my Hardware working with macOS. I want to share this with you and maybe we can optimize it together a bit more.
 
-**Attention**: This EFI is uploaded without SMBIOS settings (serialnumber, etc.). After downloading the EFI you have to change it [this way](https://dortania.github.io/OpenCore-Desktop-Guide/AMD/zen.html#platforminfo).
+**Attention**: This EFI is uploaded without SMBIOS settings (serialnumber, etc.). After downloading the EFI you have to change it [this way](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).
 
 
 
@@ -60,7 +61,7 @@ Video Card: 8GB Sapphire RX 5700 XT Nitro+
 
 <u>Software</u>
 
-OpenCore: 0.6.2
+OpenCore: 0.6.3
 
 MacOS Catalina: 11.0 Beta (20A5384c)
 
@@ -94,7 +95,7 @@ Optional:
 
 [**IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware/releases) - IntelBluetoothFirmware is a Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS. On my side i replaced the M2 BT/WIFI Card.
 
-[**RadeonBoost](https://www.hackintosh-forum.de/forum/thread/47791-radeonboost-kext-benchmark-scores-wie-am-echten-mac-unter-windows/?pageNo=1) - GPU Performance Boost - not working with 10.15.5 yet.
+[**RadeonBoost] <-> not needed any longer <-> (https://www.hackintosh-forum.de/forum/thread/47791-radeonboost-kext-benchmark-scores-wie-am-echten-mac-unter-windows/?pageNo=1) - GPU Performance Boost - not working with 10.15.5 yet.
 
 [**MacProMemoryNotificationDisabler](https://github.com/IOIIIO/MacProMemoryNotificationDisabler) - [Lilu](https://github.com/acidanthera/Lilu) plugin for disabling the "more than maximum amount of memory" popup on MacPro7,1. I use SMBIOS iMacPro1,1 where it is not needed.
 
