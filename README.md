@@ -251,6 +251,7 @@ With this change, the master boot device (nvme slot) is told: you are internal.
 
 ##### USB Power
 
+##### Sleep (only with Big Sur, not with Catalina)
 
 
 
@@ -259,7 +260,6 @@ With this change, the master boot device (nvme slot) is told: you are internal.
 
 - ##### WIFI (Intel AX200, maybe [this](https://github.com/zxystd/itlwm) will solve the problem). I have changed the M2 Wifi Card to a compatible device.
 
-- ##### Sleep - only when no device is attached (that is no solution for me).
 
 
 
