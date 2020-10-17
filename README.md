@@ -1,4 +1,4 @@
- - ##### Update 15.10.2020
+- ##### Update 15.10.2020
 - ##### New Zen Patch (thx to Shanee and others) --- more GPU Performance
 - ##### New OC Version (with updated kexts)
 - ##### With a newer Bios Version the system didn't boot with the old config.plist - solved
@@ -63,7 +63,7 @@ Video Card: 8GB Sapphire RX 5700 XT Nitro+
 
 OpenCore: 0.6.3
 
-MacOS Catalina: 11.0 Beta (20A5384c)
+MacOS Catalina: 11.0 Beta (20A5395g)
 
 
 
