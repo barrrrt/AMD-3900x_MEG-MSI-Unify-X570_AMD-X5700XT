@@ -5,6 +5,8 @@
 - ##### Big Sur compatible
 
 # AMD-3900x_MSI-Unify-X570_AMD-X5700XT
+Thread in this forum:
+https://www.hackintosh-forum.de/forum/thread/48345-msi-x570-unify-ryzen-9-3900x-opencore/
 
 EFI for my Hackintosh based on OpenCore
 
